@@ -42,7 +42,7 @@ public class MazeGenerator : MonoBehaviour
         MakeMaze();
 
         GameObject p = GameObject.Instantiate(player);
-        p.transform.position = new Vector3(2.91f, 1f, 4.6f);
+        p.transform.position = new Vector3(2.91f, 5f, 4.6f);
     }
 
     private List<Vector2> CheckNeighbors(Vector2 cell, List<Vector2> unvisited) {
